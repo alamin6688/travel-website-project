@@ -88,7 +88,6 @@ main{
     line-height: 26px;
     width: 70%;
     margin: 0 auto;
-    /* padding-bottom: 48px; */
 }
 .banner-container > .search-bar{
     display: flex;
@@ -168,6 +167,134 @@ main{
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat,  url('Images/Rectangle\ 4.png');
 }
+/* Destination Section Styles */
+.destination-container{
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+.destination-div-01{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.destination-div-01 h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-div-01 p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px auto 40px;
+}
+.destination-div-02{
+    display: flex;
+    gap: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.destination-div-02 .destination-sub-div-1 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 130px 226px 130px;
+    font-weight: 800;
+}
+.destination-div-02 .destination-sub-div-2{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 130px 220px 130px;
+    font-weight: 800;
+}
+.destination-div-03{
+    display: flex;
+    gap: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.destination-div-03 .destination-sub-div-1{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 125px 130px 125px;
+    font-weight: 800; 
+}
+.destination-div-03 .destination-sub-div-2{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 125px 120px 125px;
+    font-weight: 800; 
+}
+.destination-div-03 .destination-sub-div-3{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 125px 80px 125px;
+    font-weight: 800; 
+}
+.destination-div-04{
+    display: flex;
+    gap: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+.destination-div-04 .destination-sub-div-1{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 130px 156px 130px;
+    /* padding-left: 156px; */
+}
+.destination-div-04 .destination-sub-div-2{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    width: 673px;
+    height: 300px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 132px 260px 132px;
+}
+/* Choose Us Section Style */
+
+
+
+
+
+
 
 
 
