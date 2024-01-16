@@ -115,8 +115,59 @@ main{
     background: #FF5400;
     color: #FFF;
 }
-/* Our popular tour Section Styles */
-
+/* Popular tour Section Styles */
+.popular-tour-container{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.tour-container-01 h2{
+    color: #131318;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.tour-container-01-description-primary{
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.tour-container-01-ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.tour-container-01-ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.popular-tour-container-btn{
+    color: #FFF;
+    text-align: center;
+    padding: 14px 34px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-style: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 25px;
+}
+.tour-container-02 img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat,  url('Images/Rectangle\ 4.png');
+}
 
 
 
