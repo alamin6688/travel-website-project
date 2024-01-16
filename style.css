@@ -275,7 +275,6 @@ main{
     font-size: 28px;
     font-weight: 800;
     padding: 130px 156px 130px;
-    /* padding-left: 156px; */
 }
 .destination-div-04 .destination-sub-div-2{
     border-radius: 16px;
@@ -289,11 +288,130 @@ main{
     padding: 132px 260px 132px;
 }
 /* Choose Us Section Style */
-
-
-
-
-
+.choose-us-container{
+    margin-bottom: 100px;
+}
+.choose-us-container .div-01 h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.choose-us-container .div-01 p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    align-items: center;
+    margin: 10px auto;
+}
+.choose-us-sub-container{
+    display: flex;
+    gap: 24px;
+    margin-top:48px ;
+    margin-bottom: 24px;
+}
+.choose-us-container .div-02{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.choose-us-container .div-02 img{
+    width: 80px;
+    height: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-02 h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-02 p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-03{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-us-container .div-03 img{
+    width: 80px;
+    height: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-03 h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-03 p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-04{
+    width: 573px;
+    height: 284px;
+    border-style: none;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+}
+.choose-us-container .div-04 img{
+    width: 80px;
+    height: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-04 h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.choose-us-container .div-04 p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+/* Footer Section Styles */
 
 
 
