@@ -7,9 +7,13 @@
     font-family: 'Mulish', sans-serif;
 }
 /* Header section */
+header{
+    width: 1170px;
+    margin: 0 auto;
+}
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1170px;
     margin: 0 auto;
     margin-top: 60px;
@@ -57,6 +61,8 @@
 }
 .line-icon{
     display: flex;
+    margin-top: 18px;
+    font-size: 20px;
     display: none;
 }
 /* Main Section Start */
@@ -68,8 +74,12 @@ main{
 .banner-container{
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('Images/Group\ 13\ \(1\)\ \(1\).png');
-    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 50px;
+    width: 1170px;
+    height: 470px;
     margin-bottom: 100px;
 }
 .banner-container h2{
@@ -98,7 +108,7 @@ main{
 .search-bar{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30); 
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     padding: 16px;
     gap: 24px;
@@ -162,10 +172,7 @@ main{
     margin-top: 25px;
 }
 .tour-container-02 img{
-    width: 540px;
-    height: 550px;
     border-radius: 16px;
-    background: lightgray 50% / cover no-repeat,  url('Images/Rectangle\ 4.png');
 }
 /* Destination Section Styles */
 .destination-container{
@@ -208,6 +215,9 @@ main{
     font-size: 28px;
     padding: 130px 226px 130px;
     font-weight: 800;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-02 .destination-sub-div-2{
     border-radius: 16px;
@@ -219,6 +229,9 @@ main{
     font-size: 28px;
     padding: 130px 220px 130px;
     font-weight: 800;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-03{
     display: flex;
@@ -236,6 +249,9 @@ main{
     font-size: 28px;
     padding: 125px 130px 125px;
     font-weight: 800; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-03 .destination-sub-div-2{
     border-radius: 16px;
@@ -247,6 +263,9 @@ main{
     font-size: 28px;
     padding: 125px 120px 125px;
     font-weight: 800; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-03 .destination-sub-div-3{
     border-radius: 16px;
@@ -258,6 +277,9 @@ main{
     font-size: 28px;
     padding: 125px 80px 125px;
     font-weight: 800; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-04{
     display: flex;
@@ -275,6 +297,9 @@ main{
     font-size: 28px;
     font-weight: 800;
     padding: 130px 156px 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .destination-div-04 .destination-sub-div-2{
     border-radius: 16px;
@@ -286,6 +311,9 @@ main{
     font-size: 28px;
     font-weight: 800;
     padding: 132px 260px 132px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Choose Us Section Style */
 .choose-us-container{
@@ -411,6 +439,111 @@ main{
     padding-top: 32px;
     padding-left: 32px;
 }
+
+
+
+
+/* section newslatter */
+.newslatter{
+    display: flex;
+    margin-bottom: 100px;
+}
+.newslatter-text{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 50px;
+    padding: 40px;
+}
+.newslatter-text h1{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newslatter-text p{
+    text-align: left;
+    margin-top: 10px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.newslatter-text input{
+    width: 393px;
+    padding: 15px 20px;
+    margin: 7px 0;
+
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+}
+.newslatter-text button{
+    width: 393px;
+    height: 55px;
+    margin: 15px 0;
+    font-weight: 800;
+}
+.newslatter-text hr{
+    width: 393px;
+    height: 1.5px;
+    border: none;
+    background: #F3F3F3;
+    margin: 10px 0 ;
+}
+.newslatter-img img{
+    width: 100%;
+}
+.newslatter-img {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+.save{
+    position: absolute;
+    bottom: 55px;
+    right: 4px;
+    width: 250px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+.save h6{
+    padding-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15.854px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+.save h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 21.138px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.btn{
+    border: none;
+    background-color: #FF5400;
+    border-radius: 16px;
+    font-family: Mulish;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 /* Footer Section Styles */
 .footer-container{
     width: 1440px;

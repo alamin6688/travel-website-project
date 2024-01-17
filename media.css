@@ -1,2 +1,195 @@
-
+/* for mobile */
+@media  screen and (max-width:600px) {
+    header,main{
+        width: 100%;
+    }
+    .nav-container{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .line-icon{
+        margin-right: 60px;
+    }
+    .logo{
+        margin-left: 60px;
+    }
+    .line-icon{
+        display: block;
+    }
+    .nav-container ul{
+        display: none;
+    }
+    .banner-container{
+        width: 90%;
+        height: 510px;
+        display: block;
+        margin: 0 auto
+    }
+    .banner-container h2{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .banner-container p{
+        font-size: 13px;
+    }
+    .banner-container > .search-bar{
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin: 20px auto 0;
+    }
+    .search-bar input,select{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .popular-tour-container{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tour-container-01-description-primary{
+        width: 100%;
+        padding: 0 20px ;
+    }
+    .tour-container-01 h2{
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+    .destination-container{
+        margin: 30px 0;
+    }
+    .tour-container-01-ul{
+        margin-left: 5px;
+    }
+    .popular-tour-container-btn{
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .tour-container-02{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tour-container-02 img{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+    .destination-div-02,.destination-div-03,.destination-div-04{
+        flex-direction: column;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-02 .destination-sub-div-1{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-02 .destination-sub-div-2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-03 .destination-sub-div-1{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-03 .destination-sub-div-2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-03 .destination-sub-div-3{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-04 .destination-sub-div-1{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination-div-04 .destination-sub-div-2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose-us-sub-container{
+        flex-direction: column;
+    }
+     /* section newslatter */
+     .newslatter{
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    .newslatter-text{
+        width: 95%;
+        margin: 10px auto 0 auto;
+        display: block;
+    }
+    .newslatter-img img{
+        width: 95%;
+        margin: 10px auto 0 auto;
+        display: block;
+    }
+    .save{
+        position: absolute;
+        bottom: 38px;
+        right: 17px;
+        width: 250px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+    }
+    .footer-container{
+        width: 100%;
+        height: auto;
+    }
+    .footer-description{
+        width: 100% ;
+    }
+    }    .footer-logo{
+        padding-top: 0px ;
+    }
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+    .choose-us-container{
+        margin-bottom: 50px;
+    }
+}
    
